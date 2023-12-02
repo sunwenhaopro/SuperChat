@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev,mybatisplus,wx,redis
+  cache:
+    cache-names: ItemConfigCache
+    type: redis
+    redis:
+      cache-null-values: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 8080
+
+oss:
+  enabled: true
+  type: minio
+  endpoint: http://192.168.198.128:9090
+  access-key: minio
+  secret-key: minio123
+  bucketName: swh
+

@@ -1,0 +1,8 @@
+wx:
+  mp:
+    callback: http://69cd2b02.r3.cpolar.top
+    configs:
+      - appId: ${SuperChat.wx.appId} # 第一个公众号的appid
+        secret: ${SuperChat.wx.secret} # 公众号的appsecret
+        token: ${SuperChat.wx.token} # 接口配置里的Token值
+        aesKey: ${SuperChat.wx.aesKey} # 接口配置里的EncodingAESKey值
