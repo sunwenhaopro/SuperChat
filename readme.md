@@ -57,4 +57,4 @@
 
 ### 项目运行截图
 
-![](Images/image-1.png)
+<img src="Images/image-20240301165534089.png" alt="image-20240301165534089" style="zoom:80%;" />
